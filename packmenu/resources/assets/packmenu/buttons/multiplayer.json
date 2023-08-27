@@ -1,0 +1,9 @@
+{
+	"x": -65,
+	"y": 15,
+	"width": 130,
+	"height": 20,
+	"langKey": "packmenu.server",
+	"action": "CONNECT_TO_SERVER",
+	"data": "crossmine.ddns.net:25585"
+}
