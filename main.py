@@ -1,6 +1,5 @@
 import traceback
 import time
-import certifi
 from yggdrasil import authenticate
 import random
 import subprocess
