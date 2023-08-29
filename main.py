@@ -16,7 +16,7 @@ clear = lambda: os.system('cls')
 
 print("Проверка обновлений и целостности файлов")
 subprocess.call('.\\git\\bin\\git.exe checkout -- .')
-subprocess.call('.\\git\\bin\\git.exe clear -fd')
+subprocess.call('.\\git\\bin\\git.exe clean -fd')
 subprocess.call('.\\git\\bin\\git.exe pull')
 
 def menu():
