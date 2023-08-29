@@ -14,6 +14,11 @@ root.withdraw()
 
 clear = lambda: os.system('cls')
 
+print("Проверка обновлений и целостности файлов")
+subprocess.call('.\\git\\bin\\git.exe checkout -- .')
+subprocess.call('.\\git\\bin\\git.exe clear -fd')
+subprocess.call('.\\git\\bin\\git.exe pull')
+
 def menu():
     clear()
     print('')
@@ -57,6 +62,7 @@ def menu():
 
 randomClientToken = random.randint(10000, 99999)
 try:
+    clear()
     login = input('Логин: ')
     passw = input('Пароль: ')
     mc = authenticate(login, passw, 'Minecraft', randomClientToken, False,
