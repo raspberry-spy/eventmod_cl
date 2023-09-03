@@ -43,6 +43,6 @@
   "freezingAnimation": true,
   "huggingAnimation": true,
   "narutoRunning": false,
-  "enableInWorldBookRendering": false,
+  "enableInWorldBookRendering": true,
   "disableLegSmoothing": false
 }
