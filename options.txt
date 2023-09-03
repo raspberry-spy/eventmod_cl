@@ -25,7 +25,7 @@ fov:0.625
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-gamma:0.0
+gamma:0.25
 renderDistance:6
 simulationDistance:6
 entityDistanceScaling:1.0
@@ -100,7 +100,7 @@ key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.unknown
-key_key.loadToolbarActivator:key.keyboard.x
+key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -115,11 +115,11 @@ key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.carry.desc:key.keyboard.left.shift
 key_key.zoom:key.keyboard.c
-key_key.jade.config:key.keyboard.keypad.0
-key_key.jade.show_overlay:key.keyboard.keypad.1
-key_key.jade.toggle_liquid:key.keyboard.keypad.2
-key_key.jade.narrate:key.keyboard.keypad.5
-key_key.jade.show_details:key.keyboard.left.shift
+key_key.jade.config:key.keyboard.unknown
+key_key.jade.show_overlay:key.keyboard.unknown
+key_key.jade.toggle_liquid:key.keyboard.unknown
+key_key.jade.narrate:key.keyboard.unknown
+key_key.jade.show_details:key.keyboard.unknown
 key_Camera left:key.keyboard.left
 key_Camera right:key.keyboard.right
 key_Camera closer:key.keyboard.up
@@ -128,11 +128,11 @@ key_Camera up:key.keyboard.page.up
 key_Camera down:key.keyboard.page.down
 key_Swap shoulder:key.keyboard.o
 key_Toggle perspective:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
-key_key.next_image:key.keyboard.down
-key_key.previous_image:key.keyboard.up
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_key.next_image:key.keyboard.equal
+key_key.previous_image:key.keyboard.minus
 key_key.immersivemc.backpack:key.keyboard.f23
 key_key.immersivemc.config:key.keyboard.comma
 key_key.immersivemc.ranged_grab:key.keyboard.f24
