@@ -18,14 +18,14 @@ fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:true
+darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.625
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-gamma:0.25
+gamma:0.3
 renderDistance:6
 simulationDistance:6
 entityDistanceScaling:1.0
@@ -115,6 +115,7 @@ key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.carry.desc:key.keyboard.left.shift
 key_key.zoom:key.keyboard.c
+key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
 key_key.jade.config:key.keyboard.unknown
 key_key.jade.show_overlay:key.keyboard.unknown
 key_key.jade.toggle_liquid:key.keyboard.unknown
@@ -133,9 +134,8 @@ key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.next_image:key.keyboard.equal
 key_key.previous_image:key.keyboard.minus
-key_key.immersivemc.backpack:key.keyboard.f23
-key_key.immersivemc.config:key.keyboard.comma
-key_key.immersivemc.ranged_grab:key.keyboard.f24
+key_key.the_bumblezone.beehemoth_up:key.keyboard.space
+key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.smallships.ship_sail:key.keyboard.r
 key_key.firstperson.toggle:key.keyboard.f6
 soundCategory_master:0.4089404
