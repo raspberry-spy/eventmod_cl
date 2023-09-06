@@ -12,7 +12,7 @@ invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
-directionalAudio:false
+directionalAudio:true
 touchscreen:false
 fullscreen:false
 bobView:true
