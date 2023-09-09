@@ -1,4 +1,0 @@
-#Mon Sep 04 22:52:43 EET 2023
-Colorboost=true
-customLight=true
-Tonemap=true
