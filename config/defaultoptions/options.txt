@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:1
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/FreshAnimations_v1.8.zip","packmenu","file/styling.zip"]
-incompatibleResourcePacks:["packmenu","file/styling.zip"]
+resourcePacks:["vanilla","mod_resources","packmenu","loadmyresources.hiddenpack"]
+incompatibleResourcePacks:["packmenu","loadmyresources.hiddenpack"]
 lastServer:localhost:25585
 lang:ru_ru
 soundDevice:""
