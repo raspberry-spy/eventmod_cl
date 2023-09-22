@@ -1,0 +1,36 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[triggers.universal]
+		fade_out = "0"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		stop_delay = "0"
+		fade_in = "0"
+	[triggers.time]
+		time_bundle = ""
+		max_tracks = "1"
+		identifier = "now"
+		fade_in = "60"
+		end_hour = "2"
+		fade_out = "60"
+		start_hour = "0.0"
+	[triggers.menu]
+		fade_in = "40"
+		fade_out = "40"
+	[triggers.loading]
+		fade_in = "40"
+		fade_out = "40"
+[songs]
+	[songs.morning]
+		volume = "0.4"
+		triggers = [ "time-now" ]
+	[songs.loading]
+		triggers = [ "loading" ]
+	[songs.menu]
+		volume = "0.8"
+		triggers = [ "menu" ]
