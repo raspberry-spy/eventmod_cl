@@ -18,7 +18,7 @@ fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.625
@@ -77,9 +77,9 @@ showAutosaveIndicator:true
 allowServerListing:true
 chatPreview:1
 onlyShowSecureChat:false
-soundCategory_master:0.4089404
+soundCategory_master:1.0
 soundCategory_music:1.0
-soundCategory_record:0.4084507
+soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
