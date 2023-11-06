@@ -6,13 +6,13 @@ chatLinks:true
 chatLinksPrompt:true
 enableVsync:false
 entityShadows:true
-forceUnicodeFont:true
+forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
-directionalAudio:true
+directionalAudio:false
 touchscreen:false
 fullscreen:false
 bobView:true
@@ -77,7 +77,7 @@ showAutosaveIndicator:true
 allowServerListing:true
 chatPreview:1
 onlyShowSecureChat:false
-soundCategory_master:1.0
+soundCategory_master:0.4
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
