@@ -2,3 +2,4 @@
 Colorboost=true
 customLight=true
 Tonemap=true
+gamma=2.4
