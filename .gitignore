@@ -1,6 +1,7 @@
 /config/
 /optionsof.txt
 /options.txt
+/servers.dat
 /pas.json
 /resourcepacks/
 /shaderpacks/
@@ -11,3 +12,4 @@
 /mod_data/
 /java/
 /mods/configured-2.1.1-1.19.2.jar
+/XaeroWaypoints/
