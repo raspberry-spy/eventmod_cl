@@ -46,7 +46,7 @@ def auth():
     windowl.destroy()
     randomClientToken = random.randint(10000, 99999)
     mc = authenticate(login, passw, 'Minecraft', randomClientToken, False,
-                      authServer='https://crossmine.ddns.net:443/authserver')
+                      authServer='http://crossmine.ddns.net:80/authserver')
     accessToken = mc['accessToken']
     clientId = randomClientToken
     uuid = mc['selectedProfile']['id']
