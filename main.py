@@ -51,7 +51,7 @@ if os.path.exists('pas.json'):
                             verify=False)
         if ref.status_code == 403:
             print(
-                'Старая сессия не найдена в базе данных (скорее всего сервер был перезагружен)\nНеобходим повторный вход')
+                'Старая сессия не найдена в базе данных\nНеобходим повторный вход')
             user = auth()
         else:
             refj = json.loads(ref.text)
@@ -77,15 +77,11 @@ while True:
     if comm == '' or comm == 'play':
         break
     elif comm == 'skin':
-        skinpath = filedialog.askopenfilename(defaultextension="png", filetypes=[("Skin image", ".png")])
-        requests.request("PUT", "http://crossmine.ddns.net/minecraftservices/minecraft/profile/skins",
-                         files={'file': open(skinpath, 'rb')}, headers={'authorization': f"Bearer {user[0]}"},
-                         data={'variant': 'classic'}, verify=False)
+        #skinpath = filedialog.askopenfilename(defaultextension="png", filetypes=[("Skin image", ".png")])
+        requests.request("POST", "http://crossmine.ddns.net/minecraftservices/minecraft/profile/skins", headers={'authorization': f"Bearer {user[0]}"}, data={'variant': 'classic', 'url': input('Введите url скина => ')}, verify=False)
     elif comm == 'skinslim':
-        skinpath = filedialog.askopenfilename(defaultextension="png", filetypes=[("Skin image", ".png")])
-        requests.request("PUT", "http://crossmine.ddns.net/minecraftservices/minecraft/profile/skins",
-                         files={'file': open(skinpath, 'rb')}, headers={'authorization': f"Bearer {user[0]}"},
-                         data={'variant': 'slim'}, verify=False)
+        #skinpath = filedialog.askopenfilename(defaultextension="png", filetypes=[("Skin image", ".png")])
+        requests.request("POST", "http://crossmine.ddns.net/minecraftservices/minecraft/profile/skins", headers={'authorization': f"Bearer {user[0]}"}, data={'variant': 'slim', 'url': input('Введите url скина => ')}, verify=False)
     elif comm == '1488':
         print('''⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
