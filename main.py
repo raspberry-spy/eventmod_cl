@@ -78,10 +78,10 @@ while True:
         break
     elif comm == 'skin':
         skinpath = filedialog.askopenfilename(defaultextension="png", filetypes=[("Skin image", ".png")])
-        requests.request("PUT", "http://crossmine.ddns.net/api/user/profile/user[1]/skin", headers={'authorization': f"Bearer {user[0]}"}, files={'file': open(skinpath, 'rb')}, data={'model':''}, verify=False)
+        requests.request("PUT", f"http://crossmine.ddns.net/api/user/profile/{user[1]}/skin", headers={'authorization': f"Bearer {user[0]}"}, files={'file': open(skinpath, 'rb')}, data={'model':''}, verify=False)
     elif comm == 'skinslim':
         skinpath = filedialog.askopenfilename(defaultextension="png", filetypes=[("Skin image", ".png")])
-        requests.request("PUT", "http://crossmine.ddns.net/api/user/profile/user[1]/skin", headers={'authorization': f"Bearer {user[0]}"}, files={'file': open(skinpath, 'rb')}, data={'model':'slim'}, verify=False)
+        requests.request("PUT", f"http://crossmine.ddns.net/api/user/profile/{user[1]}/skin", headers={'authorization': f"Bearer {user[0]}"}, files={'file': open(skinpath, 'rb')}, data={'model':'slim'}, verify=False)
     elif comm == '1488':
         print('''⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
