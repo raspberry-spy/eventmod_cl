@@ -32,7 +32,7 @@ entityDistanceScaling:1.0
 guiScale:0
 particles:0
 maxFps:260
-graphicsMode:0
+graphicsMode:1
 ao:2
 prioritizeChunkUpdates:1
 biomeBlendRadius:2
@@ -58,7 +58,7 @@ chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:0
+mipmapLevels:4
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
