@@ -28,7 +28,7 @@
 	#DEFAULT=true. Specifies if an overlay should be applied to entities that renders wither sickness. Reload Type: GAME
 	witherSicknessLayer = true
 	#DEFAULT=false. Specifies if the boss themes should be played. Useful if you want to disable only the themes without also turning off music discs. Reload Type: NONE
-	playBossThemes = false
+	playBossThemes = true
 	#DEFAULT=true. Toggle to enable/disable the chromatic aberration effect. Reload Type: NONE
 	chromaticAberration = true
 	#DEFAULT=true. Specifies whether or not a white overlay should cover the screen during certain events. Reload Type: NONE
