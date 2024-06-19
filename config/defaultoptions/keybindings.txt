@@ -64,7 +64,7 @@ key_key.inventorysorter.sort:key.mouse.middle
 key_key.inventorysorter.itemin:key.mouse.100
 key_key.inventorysorter.itemout:key.mouse.102
 key_merchantmarkers.key.showMarkers:key.keyboard.unknown
-key_key.plasmovoice.settings:key.keyboard.v
+key_key.plasmovoice.settings:key.keyboard.unknown
 key_key.emotecraft.fastchoose:key.keyboard.y
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.jade.config:key.keyboard.unknown
