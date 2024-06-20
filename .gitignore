@@ -13,10 +13,13 @@
 /mods/configured-2.1.1-1.19.2.jar
 /XaeroWaypoints/
 /main.py
+/maina.py
 /evev.ico
 /build.bat
 /main.build/
+/main.dist/
 /push.bat
 /skin.png
 /skinslim.png
 /local/
+/logs/
