@@ -18,7 +18,7 @@ type = "KEYSYM"
 
 [voice]
 disabled = false
-microphone_disabled = false
+microphone_disabled = true
 activation_threshold = -30.0
 input_device = ""
 output_device = ""
@@ -30,22 +30,24 @@ volume = 1.0
 compressor_limiter = true
 sound_occlusion = false
 directional_sources = false
-hrtf = false
+hrtf = true
 stereo_capture = false
 
-[voice.volumes.source_4e7474cf-6561-4937-a2ba-c0b1e336e98a]
-volume = 1.0
 [voice.volumes.source_23f279dc-0ed9-4af7-a788-3f564bc6ff42]
+volume = 1.0
+[voice.volumes.source_4e7474cf-6561-4937-a2ba-c0b1e336e98a]
 volume = 1.0
 [voice.volumes.source_757d8a65-77ab-4128-bb75-393d984489f9]
 volume = 1.0
 [voice.volumes.source_990b4f5a-eddd-4566-98cb-e203fad9e142]
 volume = 1.0
-[voice.volumes.source_c9dbea93-3608-4364-8402-2dd0e5059a9a]
+[voice.volumes.source_4b165359-2074-4e42-ad52-3804a1055c66]
+volume = 1.0
+[voice.volumes.proximity]
 volume = 1.0
 [voice.volumes.source_cea4d0e8-ebae-4997-9655-2fdd8e85fa57]
 volume = 1.0
-[voice.volumes.proximity]
+[voice.volumes.source_c9dbea93-3608-4364-8402-2dd0e5059a9a]
 volume = 1.0
 [voice.volumes.source_ecd29f02-af7b-4f3a-a3c2-09515f86f0cc]
 volume = 1.0
