@@ -164,7 +164,7 @@ key_key.backpack:key.keyboard.b
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.firstperson.toggle:key.keyboard.f6
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.4
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
