@@ -24,13 +24,13 @@
 	[camera.offset]
 		#Third person camera x-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = -0.5249999999999998
+		offset_x = -1.1999999999999995
 		#Third person camera y-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		offset_y = 0.125
 		#Third person camera z-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 2.825000000000004
+		offset_z = 2.8000000000000043
 
 		[camera.offset.min]
 			#If x-offset is limited this is the minimum amount.
@@ -137,12 +137,12 @@
 [crosshair]
 	#Crosshair type to use for shoulder surfing.
 	#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP, DYNAMIC_WITH_1PP
-	crosshair_type = "STATIC"
+	crosshair_type = "DYNAMIC"
 	#The raytrace distance used for the dynamic crosshair.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	custom_raytrace_distance = 400.0
 	#Whether or not to use the custom raytrace distance used for the dynamic crosshair.
-	use_custom_raytrace_distance = true
+	use_custom_raytrace_distance = false
 	#Items that when held, trigger the dynamic crosshair in adaptive mode. This config option supports regular expressions. Example: 'minecraft:.*sword' matches 'minecraft:wooden_sword' and 'minecraft:netherite_sword'.
 	adaptive_crosshair_hold_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion"]
 	#Items that when used, trigger the dynamic crosshair in adaptive mode. This config option supports regular expressions. Example: 'minecraft:.*sword' matches 'minecraft:wooden_sword' and 'minecraft:netherite_sword'.
