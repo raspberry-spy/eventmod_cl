@@ -84,3 +84,4 @@ key_Free look:key.keyboard.unknown
 key_key.backpack:key.keyboard.b
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.firstperson.toggle:key.keyboard.f6
+key_key.openoptions.desc:key.keyboard.unknown
