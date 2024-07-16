@@ -137,7 +137,7 @@
 [crosshair]
 	#Crosshair type to use for shoulder surfing.
 	#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP, DYNAMIC_WITH_1PP
-	crosshair_type = "DYNAMIC"
+	crosshair_type = "STATIC"
 	#The raytrace distance used for the dynamic crosshair.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	custom_raytrace_distance = 400.0
