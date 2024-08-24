@@ -18,7 +18,7 @@ type = "KEYSYM"
 
 [voice]
 disabled = false
-microphone_disabled = true
+microphone_disabled = false
 activation_threshold = -30.0
 input_device = ""
 output_device = ""
