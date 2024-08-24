@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "strafingRollFactor": 2.0,
-  "yawDeltaRollFactor": 2.0,
+  "strafingRollFactor": 4.0,
+  "yawDeltaRollFactor": 4.0,
   "verticalVelocityPitchFactor": 1.5,
   "forwardVelocityPitchFactor": 1.5,
   "configVersion": 1
